@@ -1,15 +1,4 @@
-/**
-* Template Name: Medilab
-* Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -962,7 +951,7 @@ section,
 .hero .content .why-box h3 {
   color: var(--contrast-color);
   font-weight: 700;
-  font-size: 34px;
+  font-size: 30px;
   margin-bottom: 30px;
 }
 
@@ -1017,7 +1006,7 @@ section,
 # About Section
 --------------------------------------------------------------*/
 .about .content h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
@@ -1050,6 +1039,7 @@ section,
 
 .about .content p:last-child {
   margin-bottom: 0;
+  margin-top: 15px;
 }
 
 .about .pulsating-play-btn {
@@ -1724,6 +1714,181 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+
+
+/* ------------------------------------------new css---------------------- */
+.welcome.position-relative {
+  text-align: center;
+}
+.sec-heading {
+  background: aliceblue;
+  margin: 25px 0px;
+  padding: 19px 0px;
+}
+p.heading-tex {
+  margin: 0px;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 500;
+}
+/* --------------------job section -----------------------------*/
+.profession_list_one {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #569fd7;
+  padding: 10px;
+  position: relative;
+}
+
+.job-sec{
+  .section-title {
+    text-align: center;
+    padding-bottom: 10px;
+    position: relative;
+  }
+  .section-title h2 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    padding-bottom: 13px;
+    position: relative;
+}
+h6.employment-support {
+  font-size: 14px;
+  margin: 0px 5% 5px 10%;
+}
+}
+.card {
+  margin: 3px 0px;
+}
+.headding {
+  background: #569fd7;
+  padding: 5px 20px;
+  color: #FFF;
+}
+.headding strong {
+  font-size: 22px;
+}
+.headding strong span {
+  font-size: 0.8em;
+}
+.profession_list_one ul {
+  min-height: 100px;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  font-size: 14px;
+  margin-right: 125px;
+}
+.profession_list_one img {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  #career_center dl.support_list {
+      width: auto;
+      max-width: calc((100% -15) / 12);
+  }
+}
+#career_center dl.support_list {
+  text-align: left;
+}
+dl.support_list dt {
+  color: #2065A8;
+  font-weight: bold;
+  padding: 5px;
+}
+dl.support_list dd::before {
+  content: "â—";
+  color: #2065A8;
+}
+dl.support_list dd {
+  display: block;
+}
+.teacher {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  #career_center .teacher {
+      width: auto;
+      max-width: calc((100% - 15px) / 2);
+  }
+  .teacher .img {
+    max-width: 115px !important;
+}
+}
+.teacher .img {
+  max-width: 150px;
+}
+.teacher .name {
+  font-weight: bold;
+}
+.teacher .text {
+  align-self: start;
+}
+.colleps-sec button {
+  width: 100%;
+  margin-top: 10px;
+}
+.support-head-first h6 {
+  padding-bottom: 6px;
+  margin-bottom: 7px;
+  border-bottom: 0.05px solid #c7c6c6;
+}
+.schedule_headding {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2065A8;
+  margin-bottom: 10px;
+}
+.table-body {
+  margin-left: 40px;
+}
+p.table-heading {
+  margin: 0px;
+  font-size: 15px;
+  font-weight: 500;
+}
+td.table-text-one {
+  text-align: center;
+  align-content: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+li {
+  font-size: 13px;
+}
+.schedule_headding span {
+  display: inline-flex;
+  background: #20bfb7;
+  color: #fffe6a;
+  padding: 2px 15px;
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: normal;
+}
+.support_book {
+  display: flex
+;
+  flex-direction: column;
+  width: fit-content;
+}
+.support_book_title {
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+  display: table;
+  width: auto;
+  margin: 0 auto 10px;
+}
+.support_book img {
+  max-width: 200px;
+  margin: auto;
+}
+.items {
+  width: 65%;
 }
