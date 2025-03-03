@@ -2379,3 +2379,85 @@ iframe {
 .atten-ltr {
   border: 1px solid gray;
 }
+/*-------------------------- korea language ----------------------------------------*/
+.box_corners_4circle > div {
+  padding: 30px;
+}
+
+.box_corners_4circle > div {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.voice_box {
+  background: #FFF;
+  margin-bottom: 4px;
+}
+
+.box_corners_4circle {
+  margin-top: 50px;
+}
+.box_corners_4circle {
+  border: 1px solid #000;
+  position: relative;
+}
+.box_corners_4circle::before {
+  top: -4px;
+  left: -4px;
+}
+.box_corners_4circle::before, .box_corners_4circle::after, .box_corners_4circle > div::before, .box_corners_4circle > div::after {
+  content: '';
+  background: #000;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  position: absolute;
+}
+.box_corners_4circle::after{
+  content: '';
+  top: -3px;
+  right: -4px;
+  background: #000;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  position: absolute;
+}
+.box_corners_4circle > div::before {
+  bottom: -4px;
+  left: -4px;
+}
+
+.voice_box .subTitle {
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: 4px solid;
+  border-image: linear-gradient(to right, #43bcc5 , #ee86a7 ) 5;
+  display: inline-block;
+  margin: 0 auto 5px;
+  padding-bottom: 10px;
+}
+#japanese_school_list_box dl dt {
+  color: #9f569d;
+  margin-top: 10px;
+  font-weight: bold;
+}
+#japanese_school_list_box dl {
+  text-align: left;
+}
+#japanese_school_list_box dl dt {
+  color: #9f569d;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.txR {
+  text-align: right;
+}
+
+.ft14 {
+  font-size: 14px !important;
+}
+.box_corners_4circle > div::after {
+  bottom: -4px;
+  right: -4px;
+}
