@@ -2050,7 +2050,8 @@ li {
   bottom: 0;
   right: 60px;
 }
-/* ----------------------------scroll-------------------------- */
+
+/* ---------------------------------------education---------------------------------- */
 @media screen and (min-width: 768px) {
   .scroll_height {
       margin-top: -100px;
@@ -2153,6 +2154,16 @@ li {
       margin: -30px 20px 0;
       bottom: 0;
   }
+  .course_detail .recommend ul li {
+    padding-left: 0px !important;
+    margin-right: 0px !important;
+}
+.course_detail .recommend ul {
+  margin: 0px !important;
+  gap: 10px 10px !important;
+  text-align: left !important;
+  padding: 0px 14px !important;
+}
 }
 @media screen and (max-width: 767px) {
   .course_detail .main {
@@ -2188,6 +2199,7 @@ img {
       margin-top: -100px;
       padding: 150px 0 30px;
   }
+  
 }
 .course_detail .recommend {
   text-align: center;
@@ -2224,8 +2236,9 @@ img {
   background-image: url(img/check_education.png);
   background-repeat: no-repeat;
   background-position: left top;
-  padding-left: 35px;
-  width: 50%;
+  padding-left: 0px;
+  margin-right: 35px;
+  width: 91%;
   border-bottom-width: 3px;
   border-bottom-style: dotted;
   border-bottom-color: #ef7d49;
