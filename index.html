@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title> Seoul Dental Technician College</title>
+  <title data-key="title">Seoul Dental Technician College</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -108,15 +108,16 @@
       <div class="container position-relative">
 
         <div class="welcome position-relative" data-aos="fade-down" data-aos-delay="100">
-          <h2>Welcome To Seoul Dental Technician College</h2>
-          <p>"Crafting Smiles with Precision & Passion!" 😊🎓</p>
-        </div><!-- End Welcome -->
+          <h2 data-key="welcome">Welcome To Seoul Dental Technician College</h2>
+          <p data-key="tagline">"Crafting Smiles with Precision & Passion!" 😊🎓</p>
+        </div>
+        <!-- End Welcome -->
 
         <div class="content row gy-4">
           <div class="col-lg-4 d-flex align-items-stretch">
             <div class="why-box" data-aos="zoom-out" data-aos-delay="200">
-              <h3>Why Choose Seoul Dental Technician College?</h3>
-              <p>
+              <h3 data-key="whyChoose">Why Choose Seoul Dental Technician College?</h3>
+              <p >
                 Seoul Dental Technician College offers top-tier education, cutting-edge facilities,
                 and expert faculty specializing in dental technology. With hands-on training, industry
                 partnerships, and a strong employment rate, students gain practical skills and global opportunities.
@@ -134,8 +135,8 @@
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box" data-aos="zoom-out" data-aos-delay="300">
                     <i class="bi bi-clipboard-data"></i>
-                    <h4>Dental technician</h4>
-                    <p>Repairing chipped and missing teeth.
+                    <h4 data-key="dentalTech">Dental technician</h4>
+                    <p data-key="dentalDesc">Repairing chipped and missing teeth.
                       Creating dental devices for addressing problems of missing teeth, gum issues, tooth alignment, and
                       bite alignment</p>
                   </div>
@@ -144,8 +145,8 @@
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box" data-aos="zoom-out" data-aos-delay="400">
                     <i class="bi bi-gem"></i>
-                    <h4>CAD designer(dental technician)</h4>
-                    <p>Repairing chipped and missing teeth.
+                    <h4 data-key="cadTech">CAD designer(dental technician)</h4>
+                    <p data-key="cadDesc">Repairing chipped and missing teeth.
                       Designing teeth using specialized software</p>
                   </div>
                 </div><!-- End Icon Box -->
@@ -153,8 +154,8 @@
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box" data-aos="zoom-out" data-aos-delay="500">
                     <i class="bi bi-inboxes"></i>
-                    <h4>Graphic designer</h4>
-                    <p>Leveraging the full potential of design software to design posters, flyers, product packages, and
+                    <h4 data-key="graphicDesigner">Graphic designer</h4>
+                    <p data-key="graphicDesc">Leveraging the full potential of design software to design posters, flyers, product packages, and
                       more</p>
                   </div>
                 </div><!-- End Icon Box -->
@@ -162,7 +163,8 @@
               </div>
             </div>
           </div>
-        </div><!-- End  Content-->
+        </div>
+        <!-- End  Content-->
 
       </div>
 
@@ -1674,7 +1676,12 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="langScript.js"></script>
-
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      changeLanguage('english'); // Default language
+    });
+  </script>
+  
 </body>
 
 </html>

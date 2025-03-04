@@ -1,6 +1,15 @@
 {
-    "title": "Welcome to Seoul Dental College",
+    "title": "Seoul Dental Technician College",
     "description": "We offer the best dental services in Seoul.",
-    "contact": "Contact Us"
+    "contact": "Contact Us",
+    "welcome": "Welcome To Seoul Dental Technician College",
+    "tagline": "Crafting Smiles with Precision & Passion!",
+    "whyChoose": "Why Choose Seoul Dental Technician College?",
+    "dentalTech": "Dental Technician",
+    "dentalDesc": "Repairing chipped and missing teeth. Creating dental devices...",
+    "cadTech": "CAD Designer (Dental Technician)",
+    "cadDesc": "Designing teeth using specialized software...",
+    "graphicDesigner": "Graphic Designer",
+    "graphicDesc": "Leveraging the full potential of design software..."
   }
   
