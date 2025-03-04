@@ -2465,6 +2465,9 @@ iframe {
 #japanese_school_list_box dl {
   text-align: left;
 }
+#japanese_school_list_box dl dd {
+  padding-left: 15px;
+}
 #japanese_school_list_box dl dt {
   color: #9f569d;
   margin-top: 10px;
