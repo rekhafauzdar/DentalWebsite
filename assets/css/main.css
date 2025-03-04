@@ -271,7 +271,9 @@ h6 {
   width: 95%;
   justify-self: center;
 }
-
+li.dropdown {
+  cursor: pointer;
+}
 .header .logo {
   line-height: 1;
 }
