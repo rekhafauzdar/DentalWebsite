@@ -268,8 +268,12 @@ h6 {
 .header .branding {
   min-height: 60px;
   padding: 10px 0;
+  width: 95%;
+  justify-self: center;
 }
-
+li.dropdown {
+  cursor: pointer;
+}
 .header .logo {
   line-height: 1;
 }
