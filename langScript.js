@@ -68,7 +68,7 @@ const translations = {
  lab : "Research Labs",
  awards : "Awards",
  voice : "Voices of seniors active in the industry",
- employed : "Employed by SG Medical Implant Co., Ltd (Korea)",
+ employedMedical : "Employed by SG Medical Implant Co., Ltd (Korea)",
  nowWorkMedical : "He now works for Misokook Dental Group (China) Dental Technician Department Group I graduate, Mr. Wang",
  employedDental : "Employed by Wee Dental Clinic Lab Co., Ltd (Korea)",
  nowWorkDental : "Advanced from the Dental Technician Preparatory Education Department, graduated from the Dental Technician Department Group I／From the Philippines Ms. D'elsa",
@@ -77,7 +77,7 @@ const translations = {
  major : "Major",
  futureOption : "Future options after completing one year program",
  Aim : "Aim to become a member of the anime, game, video, or dental industries",
- Course : "3DCG/CAD Designer Major<br><span>(3 year program)</span>",
+ Course : "3DCG/CAD Designer Major (3 year program)",
 
   },
   korean: {
@@ -117,7 +117,7 @@ const translations = {
     lab  : "연구실",
     awards  : "수상",
     voice  : "업계에서 활동 중인 선배들의 목소리",
-    employed  : "SG Medical Implant Co., Ltd (한국) 근무",
+    employedMedical  : "SG Medical Implant Co., Ltd (한국) 근무",
     nowWorkMedical  : "현재 중국 미소국 치과 그룹에서 근무 중, 치과 기술학과 Group I 졸업, Mr. Wang",
     employedDental  : "Wee Dental Clinic Lab Co., Ltd (한국) 근무",
     nowWorkDental  : "치과 기술 준비 교육부에서 진급, 치과 기술학과 Group I 졸업 / 필리핀 출신 Ms. D'elsa",
@@ -126,7 +126,7 @@ const translations = {
     major  : "전공",
     futureOption  : "1년 프로그램 완료 후의 미래 옵션",
     Aim  : "애니메이션, 게임, 비디오 또는 치과 산업의 구성원이 되는 것을 목표로 합니다",
-    Course  : "3DCG/CAD 디자이너 전공<br><span>(3년 프로그램)</span>",
+    Course  : "3DCG/CAD 디자이너 전공 (3년 프로그램)",
 
 
   },
@@ -167,7 +167,7 @@ const translations = {
     lab : "研究实验室",
     awards : "奖项",
     voice : "活跃在行业中的前辈声音",
-    employed : "受雇于SG Medical Implant Co., Ltd (韩国)",
+    employedMedical : "受雇于SG Medical Implant Co., Ltd (韩国)",
     nowWorkMedical : "目前在中国Misokook Dental Group工作，牙科技工系Group I毕业，Mr. Wang",
     employedDental : "受雇于Wee Dental Clinic Lab Co., Ltd (韩国)",
     nowWorkDental : "从牙科技工预备教育系升学，牙科技工系Group I毕业／来自菲律宾 Ms. D'elsa",
@@ -176,7 +176,7 @@ const translations = {
     major : "专业",
     futureOption : "完成一年课程后的未来选择",
     Aim : "目标成为动漫、游戏、视频或牙科行业的成员",
-    Course : "3DCG/CAD 设计师专业<br><span>（3年课程）</span>",
+    Course : "3DCG/CAD 设计师专业 （3年课程）",
 
 
   },
@@ -217,7 +217,7 @@ const translations = {
     lab : "Phòng thí nghiệm nghiên cứu",
     awards : "Giải thưởng",
     voice : "Tiếng nói của các đàn anh hoạt động trong ngành",
-    employed : "Làm việc tại SG Medical Implant Co., Ltd (Hàn Quốc)",
+    employedMedical : "Làm việc tại SG Medical Implant Co., Ltd (Hàn Quốc)",
     nowWorkMedical : "Hiện đang làm việc cho Misokook Dental Group (Trung Quốc), tốt nghiệp Khoa Kỹ thuật Nha khoa Nhóm I, Mr. Wang",
     employedDental : "Làm việc tại Wee Dental Clinic Lab Co., Ltd (Hàn Quốc)",
     nowWorkDental : "Tiến bộ từ Khoa Giáo dục Chuẩn bị Kỹ thuật Nha khoa, tốt nghiệp Khoa Kỹ thuật Nha khoa Nhóm I／Từ Philippines Ms. D'elsa",
@@ -226,7 +226,7 @@ const translations = {
     major : "Chuyên ngành",
     futureOption : "Các lựa chọn tương lai sau khi hoàn thành chương trình một năm",
     Aim : "Mục tiêu trở thành thành viên của các ngành công nghiệp anime, trò chơi, video hoặc nha khoa",
-    Course : "Chuyên ngành Thiết kế 3DCG/CAD<br><span>(Chương trình 3 năm)</span>",
+    Course : "Chuyên ngành Thiết kế 3DCG/CAD (Chương trình 3 năm)",
   }
 };
 
