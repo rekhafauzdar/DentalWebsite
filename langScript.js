@@ -569,17 +569,38 @@ const translations = {
 }
 };
 
+// function changeLanguage(lang) {
+//   localStorage.setItem("lang", lang); // Refresh ke baad language yaad rahegi
+//   document.querySelectorAll("[data-key]").forEach((element) => {
+//     const key = element.getAttribute("data-key");
+//     if (translations[lang][key]) {
+//       element.textContent = translations[lang][key];
+//     }
+//   });
+// }
+
+// document.addEventListener("DOMContentLoaded", () => {
+//   const savedLang = localStorage.getItem("lang") || "english";
+//   changeLanguage(savedLang);
+// });
+
+
+
 function changeLanguage(lang) {
-  localStorage.setItem("lang", lang); // Refresh ke baad language yaad rahegi
-  document.querySelectorAll("[data-key]").forEach((element) => {
-    const key = element.getAttribute("data-key");
-    if (translations[lang][key]) {
+  if (typeof(Storage) !== "undefined") {
+    localStorage.setItem("lang", lang);
+  }
+  var elements = document.querySelectorAll("[data-key]");
+  for (var i = 0; i < elements.length; i++) {
+    var element = elements[i];
+    var key = element.getAttribute("data-key");
+    if (translations[lang] && translations[lang][key]) {
       element.textContent = translations[lang][key];
     }
-  });
+  }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  const savedLang = localStorage.getItem("lang") || "english";
+window.onload = function () {
+  var savedLang = localStorage.getItem("lang") || "english";
   changeLanguage(savedLang);
-});
+};
