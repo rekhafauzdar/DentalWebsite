@@ -162,13 +162,10 @@ const translations = {
     deprtment: "Departments",
     student: "Students",
     contact: "Contact",
-
-
-
-
-
-
+    Accommodation : "Accommodation support",
+    AccommodationDec : "We provide accommodation support and information for living on your own or in a dorm, whichever best fits your lifestyle. Don't hesitate to consult with us."
   },
+
   korean: {
     title: "서울 치과 대학에 오신 것을 환영합니다",
     welcome: "서울 치기공 대학에 오신 것을 환영합니다",
@@ -299,12 +296,8 @@ const translations = {
     deprtment: "학과",
     student: "학생",
     contact: "연락처",
-
-
-
-
-
-
+    Accommodation : "숙박 지원",
+    AccommodationDec : "혼자 살거나 기숙사에 거주할 수 있도록 숙박 지원 및 정보를 제공합니다. 귀하의 라이프스타일에 가장 적합한 옵션을 선택하십시오. 주저하지 말고 상담해 주세요."
   },
   chinese: {
     title: "欢迎来到首尔牙科学院",
@@ -436,13 +429,11 @@ const translations = {
     deprtment: "部门",
     student: "学生",
     contact: "联系",
-
-
-
-
-
-
+    Accommodation : "住宿支持",
+    AccommodationDec : "我们提供住宿支持和信息，您可以选择独自居住或住在宿舍，取决于最适合您的生活方式。欢迎随时咨询我们。"
   },
+
+
   vietnam: {
     title: "Chào mừng đến với Seoul Dental College",
     welcome: "Chào mừng đến với Trường Cao đẳng Kỹ thuật Nha khoa Seoul",
@@ -573,11 +564,9 @@ const translations = {
     deprtment: "Khoa",
     student: "Sinh viên",
     contact: "Liên hệ",
-
-
-
-
-  }
+    Accommodation : "Hỗ trợ chỗ ở",
+    AccommodationDec : "Chúng tôi cung cấp hỗ trợ chỗ ở và thông tin để bạn sống một mình hoặc ở ký túc xá, phù hợp nhất với phong cách sống của bạn. Đừng ngần ngại tham khảo ý kiến của chúng tôi."
+}
 };
 
 function changeLanguage(lang) {
