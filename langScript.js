@@ -144,6 +144,28 @@ const translations = {
     subTitleJ: "...and many other International students enrolling over the past five years",
 
 
+    advanceSoupport: "Academic Advancement Support Major",
+    Hygienist: "Dental Hygienist Department I",
+    deptDesc: "Department deals with medical management of Orofacial diseases and disorders and Radiology Section which deals with diagnostic radiology facilities.",
+    oralMedicineDec: "Oral medicine is a specialized field of dentistry focusing on the diagnosis and treatment of diseases affecting the mouth, jaw, and related structures. It deals with conditions like oral ulcers, infections, autoimmune disorders, and oral cancer. Oral medicine specialists often collaborate with other healthcare professionals for comprehensive patient care.",
+    oralMedicine: "Oral Medicine",
+    Orthodontics: "Orthodontics",
+    OrthodonticsDesc: "Orthodontics is a specialized branch of dentistry focused on diagnosing, preventing, and treating misaligned teeth and jaws. It involves the use of braces, aligners, and other corrective devices to improve oral function and aesthetics.",
+    Maxillofacial: "Maxillofacial Surgery",
+    MaxillofacialDesc: "Maxillofacial surgery is a specialized branch of surgery that focuses on treating conditions affecting the face, jaw, mouth, and skull.",
+    location: "Corporate office: 6FL, P12,602, Yeongdong-daero, Gangnam-gu, Seoul, Republic of Korea",
+    home: "Home",
+    aboutus: "About Us",
+    service: "Services",
+    terms: "Terms of Service",
+    privacy: "Privacy Policy",
+    deprtment: "Departments",
+    student: "Students",
+    contact: "Contact",
+
+
+
+
 
 
   },
@@ -259,6 +281,27 @@ const translations = {
     subTitleI: "1. 제주관광대학교",
     subTitleJ: "...지난 5년 동안 많은 국제 학생들이 등록했습니다.",
 
+    advanceSoupport: "학문 발전 지원 전공",
+    Hygienist: "치과 위생사 학과 I",
+    deptDesc: "학과는 구강 질환의 의료 관리와 진단 방사선 시설을 다루는 방사선학 섹션을 담당합니다.",
+    oralMedicineDec: "구강 의학은 입, 턱 및 관련 구조에 영향을 미치는 질병의 진단과 치료에 중점을 둔 치과의 전문 분야입니다.",
+    oralMedicine: "구강 의학",
+    Orthodontics: "교정학",
+    OrthodonticsDesc: "교정학은 치아와 턱의 불균형을 진단, 예방 및 치료하는 치과의 전문 분야입니다.",
+    Maxillofacial: "악안면 수술",
+    MaxillofacialDesc: "악안면 수술은 얼굴, 턱, 입 및 두개골에 영향을 미치는 질환을 치료하는 데 중점을 둡니다.",
+    location: "본사: 서울특별시 강남구 영동대로 602, P12, 6층",
+    home: "홈",
+    aboutus: "회사 소개",
+    service: "서비스",
+    terms: "서비스 약관",
+    privacy: "개인정보 보호정책",
+    deprtment: "학과",
+    student: "학생",
+    contact: "연락처",
+
+
+
 
 
 
@@ -300,12 +343,12 @@ const translations = {
     lab: "研究实验室",
     awards: "奖项",
     voice: "活跃在行业中的前辈声音",
-    employedMedical: "受雇于SG Medical Implant Co., Ltd (韩国)",
-    nowWorkMedical: "目前在中国Misokook Dental Group工作，牙科技工系Group I毕业，Mr. Wang",
-    employedDental: "受雇于Wee Dental Clinic Lab Co., Ltd (韩国)",
-    nowWorkDental: "从牙科技工预备教育系升学，牙科技工系Group I毕业／来自菲律宾 Ms. D'elsa",
-    employedBK: "受雇于B&K Dental Digital Studio Co., Ltd (澳大利亚)",
-    nowWorkBK: "牙科技工系Group I毕业／来自中国 Ms. Hu",
+    employedMedical: "受雇于SG医疗植入有限公司 (韩国)",
+    nowWorkMedical: "目前在中国Misokook牙科集团工作，牙科技工系Group I毕业，王先生",
+    employedDental: "受雇于Wee牙科诊所实验室有限公司 (韩国)",
+    nowWorkDental: "从牙科技工预备教育系升学，牙科技工系Group I毕业／来自菲律宾 D'elsa女士",
+    employedBK: "受雇于B&K牙科数字工作室有限公司 (澳大利亚)",
+    nowWorkBK: "牙科技工系Group I毕业／来自中国 Hu女士",
     major: "专业",
     futureOption: "完成一年课程后的未来选择",
     aimToBecome: "目标成为动漫、游戏、视频或牙科行业的成员",
@@ -374,6 +417,27 @@ const translations = {
     subTitleH: "〈济州道〉",
     subTitleI: "1. 济州观光学院",
     subTitleJ: "...过去五年入学的众多国际学生",
+
+    advanceSoupport: "学术进阶支持专业",
+    Hygienist: "牙科卫生员系 I",
+    deptDesc: "该部门负责口面疾病和紊乱的医疗管理，以及诊断放射科提供的放射诊断设施。",
+    oralMedicineDec: "口腔医学是牙科的一个专门领域，专注于口腔、下颌及相关结构疾病的诊断和治疗。",
+    oralMedicine: "口腔医学",
+    Orthodontics: "正畸学",
+    OrthodonticsDesc: "正畸学是牙科的一个专门分支，致力于诊断、预防和治疗牙齿和下颌错位。",
+    Maxillofacial: "颌面外科",
+    MaxillofacialDesc: "颌面外科是专门治疗面部、下颌、口腔和颅骨相关疾病的外科领域。",
+    location: "公司总部：韩国首尔市江南区永东大路602号 P12 6层",
+    home: "首页",
+    aboutus: "关于我们",
+    service: "服务",
+    terms: "服务条款",
+    privacy: "隐私政策",
+    deprtment: "部门",
+    student: "学生",
+    contact: "联系",
+
+
 
 
 
@@ -488,7 +552,29 @@ const translations = {
     subTitleG: "1. Wonkwang Health College",
     subTitleH: "〈Jeju-do〉",
     subTitleI: "1. Jeju Tourism College",
-    subTitleJ: "...và nhiều sinh viên quốc tế đã nhập học trong năm năm qua"
+    subTitleJ: "...và nhiều sinh viên quốc tế đã nhập học trong năm năm qua",
+
+
+    advanceSoupport: "Ngành Hỗ trợ Phát triển Học thuật",
+    Hygienist: "Khoa Vệ sinh Nha khoa I",
+    deptDesc: "Khoa phụ trách quản lý y tế các bệnh và rối loạn vùng miệng mặt và khoa Chẩn đoán hình ảnh với các thiết bị chẩn đoán tiên tiến.",
+    oralMedicineDec: "Y học miệng là một lĩnh vực chuyên biệt của nha khoa tập trung vào chẩn đoán và điều trị các bệnh ảnh hưởng đến miệng, hàm và các cấu trúc liên quan.",
+    oralMedicine: "Y học Miệng",
+    Orthodontics: "Chỉnh nha",
+    OrthodonticsDesc: "Chỉnh nha là một nhánh chuyên biệt của nha khoa nhằm chẩn đoán, phòng ngừa và điều trị răng và hàm bị lệch.",
+    Maxillofacial: "Phẫu thuật hàm mặt",
+    MaxillofacialDesc: "Phẫu thuật hàm mặt tập trung vào điều trị các bệnh lý ảnh hưởng đến mặt, hàm, miệng và hộp sọ.",
+    location: "Văn phòng chính: Tầng 6, P12,602, Yeongdong-daero, Gangnam-gu, Seoul, Hàn Quốc",
+    home: "Trang chủ",
+    aboutus: "Giới thiệu",
+    service: "Dịch vụ",
+    terms: "Điều khoản dịch vụ",
+    privacy: "Chính sách bảo mật",
+    deprtment: "Khoa",
+    student: "Sinh viên",
+    contact: "Liên hệ",
+
+
 
 
   }
