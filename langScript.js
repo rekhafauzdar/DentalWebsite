@@ -604,3 +604,37 @@ window.onload = function () {
   var savedLang = localStorage.getItem("lang") || "english";
   changeLanguage(savedLang);
 };
+
+
+
+function showPopup(e) {
+  e.preventDefault(); // Form submit hone se pehle rokne ke liye
+  const popup = document.getElementById("popup");
+
+  // Popup dikhane ka kaam
+  popup.style.display = "block";
+
+  // 3 sec baad popup hide aur form reset
+  setTimeout(() => {
+    popup.style.display = "none";
+    document.querySelector("form").reset(); // Form Reset
+    e.target.submit(); // Form ko submit karne ke liye
+  }, 3000);
+}
+
+
+function showPopup1(e) {
+  e.preventDefault(); // Form submit hone se pehle rokne ke liye
+  const popup = document.getElementById("popup");
+
+  // Popup dikhane ka kaam
+  popup.style.display = "block";
+
+  // 3 sec baad popup hide aur form reset
+  setTimeout(() => {
+    popup.style.display = "none";
+    document.querySelector("form").reset(); // Form Reset
+    e.target.submit(); // Form ko submit karne ke liye
+  }, 3000);
+}
+
